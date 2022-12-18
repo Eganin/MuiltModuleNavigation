@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.best.navigation'
+    namespace 'com.best.feature_main'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.best.navigation"
+        applicationId "com.best.feature_main"
         minSdk 21
         targetSdk 33
         versionCode 1
@@ -33,9 +33,6 @@ android {
 }
 
 dependencies {
-
-    implementation(project(":feature-login"))
-    implementation(project(":feature-main"))
     implementation(project(":feature-detail"))
     implementation(project(":utils"))
 
