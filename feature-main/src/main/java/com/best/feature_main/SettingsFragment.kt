@@ -1,7 +1,6 @@
-package com.best.navigation.screens
+package com.best.feature_main
 
 import androidx.fragment.app.Fragment
-import com.best.navigation.R
 
 class SettingsFragment: Fragment(R.layout.fragment_settings) {
 }

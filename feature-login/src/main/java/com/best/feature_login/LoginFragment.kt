@@ -16,7 +16,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
         super.onViewCreated(view, savedInstanceState)
 
         view.findViewById<TextView>(R.id.loginTextView).setOnClickListener {
-            requireContext().getSharedPreferences(getString(R.string.app_name), 0)
+            requireContext().getSharedPreferences(getString(R.string.login_fragment), 0)
                 .edit {
                     putString("TOKEN_KEY", "Some Token")
                 }

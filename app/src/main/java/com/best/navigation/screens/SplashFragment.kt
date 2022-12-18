@@ -6,6 +6,7 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.navOptions
+import com.best.feature_main.MainFragment
 import com.best.navigation.R
 
 class SplashFragment : Fragment(R.layout.fragment_splash) {
