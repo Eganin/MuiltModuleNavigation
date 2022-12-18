@@ -6,8 +6,8 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.best.feature_main.MainFragment"
-        android:label="MainFragment">
+        android:name="ru.agladkov.feature_main.MainFragment"
+        android:label="MainFragment" >
 
         <deepLink app:uri="jetnavapp://main/{username}/{city}" />
 
@@ -17,5 +17,6 @@
         <argument
             android:name="city"
             app:argType="string" />
+
     </fragment>
 </navigation>

@@ -6,16 +6,16 @@
 
     <fragment
         android:id="@+id/feedFragment"
-        android:name="com.best.feature_main.FeedFragment"
+        android:name="ru.agladkov.feature_main.FeedFragment"
         android:label="FeedFragment" />
     <fragment
         android:id="@+id/likesFragment"
-        android:name="com.best.feature_main.LikesFragment"
+        android:name="ru.agladkov.feature_main.LikesFragment"
         android:label="LikesFragment" />
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.best.feature_main.SettingsFragment"
+        android:name="ru.agladkov.feature_main.SettingsFragment"
         android:label="SettingsFragment" />
 
-    <include app:graph="com.best.feature_detail.@navigation/nav_graph_detail" />
+    <include app:graph="@navigation/nav_graph_detail" />
 </navigation>

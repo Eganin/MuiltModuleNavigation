@@ -6,8 +6,11 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.best.feature_login.LoginFragment"
-        android:label="LoginFragment">
+        android:name="ru.agladkov.feature_login.LoginFragment"
+        android:label="LoginFragment" >
+
         <deepLink app:uri="jetnavapp://login" />
+
     </fragment>
+
 </navigation>
